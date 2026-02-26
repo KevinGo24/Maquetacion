@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    justify-content: center;
+    align-content: center;
+    
+}
+header{
+    justify-content: end;
+    text-align: right;
+    display: flex;
+    gap: 10px;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.google_logo{
+    height: 100px;   
+}
+.apps{
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Acceder_btn{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 10%;
+    cursor: pointer;
+}
+main{
+    max-width: 400px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Search_input{
+    border: none ;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
