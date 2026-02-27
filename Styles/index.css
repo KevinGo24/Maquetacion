@@ -5,10 +5,11 @@
 }
 
 body {
+    height: 100vh;
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -160,4 +161,35 @@ main {
 }
 label{
     font-size: 10px;
+}
+
+.idioma{
+    margin-top: 40px;   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+a{
+    color: black;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.enlace_1{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.enlace_2{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    border-top: 1px solid thistle;
+    padding: 10px;
 }
